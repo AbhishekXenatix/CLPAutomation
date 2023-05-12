@@ -202,7 +202,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>CucumberTestNGParallel</projectName>
+                            <projectName>CLPAutomation</projectName>
                             <skip>false</skip>
                             <outputDirectory>reports/cucumber-reports</outputDirectory>
                             <inputDirectory>target/cucumber-reports</inputDirectory>
