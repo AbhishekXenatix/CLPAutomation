@@ -26,7 +26,7 @@ public class UAT01Steps extends BaseSteps{
     }
     @Given("user will navigate to the registration page")
     public void userWillNavigateToTheRegistrationPage() {
-        driver.get("https://www.clpdomeo.com/en/");
+        driver.get("https://clpdomeo.com/en/");
         WebUI.sleep(2);
         driver.findElement(By.linkText("Register")).click();
     }
