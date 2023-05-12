@@ -26,7 +26,7 @@
             https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline
         </allure.cmd.download.url>
         <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
-        <maven.surefire.plugin.version>3.0.0-M5</maven.surefire.plugin.version>
+        <maven.surefire.plugin.version>3.0.0-M7</maven.surefire.plugin.version>
     </properties>
 
     <dependencies>
@@ -183,9 +183,6 @@
 
                 <configuration>
                     <suiteXmlFiles>src/test/resources/suites/RunSuiteFeature.xml</suiteXmlFiles>
-                    <forkCount>3</forkCount>
-                    <reuseForks>true</reuseForks>
-                    <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
 <!--                    <reportsDirectory>test-output</reportsDirectory>-->
                 </configuration>
             </plugin>
