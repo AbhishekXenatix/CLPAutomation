@@ -4,6 +4,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 
@@ -41,15 +42,16 @@ public class BrowserFactory {
             case EDGE:
                 System.out.println("Launching " + browserName + " browser...");
                 WebDriverManager.edgedriver().setup();
-                driver = new EdgeDriver();
+                EdgeOptions options = new EdgeOptions();
+                driver = new EdgeDriver(options);
                 driver.manage().window().maximize();
-                driver.manage().deleteAllCookies();
-                driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(PAGE_LOAD_TIMEOUT));
-                driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(IMPLICIT_WAIT));
+               // driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(PAGE_LOAD_TIMEOUT));
+               // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(IMPLICIT_WAIT));
                 break;
             default:
                 System.out.println("Browser: " + browserName + " is invalid, Launching Chrome as browser of choice...");
                 WebDriverManager.chromedriver().setup();
+
                 driver = new ChromeDriver();
                 driver.manage().window().maximize();
                 driver.manage().deleteAllCookies();

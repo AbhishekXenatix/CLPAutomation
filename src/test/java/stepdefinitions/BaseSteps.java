@@ -14,6 +14,6 @@ public class BaseSteps {
     public BaseSteps(TestContext context) {
         driver = context.getDriver();
         testContext = context;
-        AllureManager.setAllureEnvironmentInformation();
+
     }
 }
