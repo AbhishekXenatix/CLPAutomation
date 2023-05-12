@@ -183,9 +183,7 @@
                 <configuration>
                     <suiteXmlFiles>src/test/resources/suites/RunSuiteFeature.xml</suiteXmlFiles>
                     <rerunFailingTestsCount>1</rerunFailingTestsCount>
-                    <argLine>
-                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
-                    </argLine>
+
                     <reportsDirectory>test-output</reportsDirectory>
                 </configuration>
             </plugin>

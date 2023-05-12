@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">May 12, 2023 04:42:40 PM</span></a>
+<a href="#"><span class="badge badge-primary">May 12, 2023 05:41:45 PM</span></a>
 </li>
 </ul>
 </div>
@@ -86,7 +86,7 @@
           <div class="test-detail">
             <p class="name">Verify the UAT Test case 01</p>
             <p class="text-sm">
-              <span>4:42:43 PM</span> / <span>00:00:52:485</span>
+              <span>5:41:46 PM</span> / <span>00:00:15:638</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -95,9 +95,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">Verify the UAT Test case 01</h5>
-<span class='badge badge-success'>05.12.2023 4:42:43 PM</span>
-<span class='badge badge-danger'>05.12.2023 4:43:36 PM</span>
-<span class='badge badge-default'>00:00:52:485</span>
+<span class='badge badge-success'>05.12.2023 5:41:46 PM</span>
+<span class='badge badge-danger'>05.12.2023 5:42:01 PM</span>
+<span class='badge badge-default'>00:00:15:638</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -110,9 +110,6 @@
     <div class="card-header" role="tab">
       <div class="card-title">
         <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>New User Registration</div>
-          <div class="status-avatar float-right mr-4">
-            <i class="fa fa-paperclip"></i>
-          </div>
       </div>
     </div>
         <div class="scenario_outline ">
@@ -120,24 +117,21 @@
               <div class="card-header">
                 <div class="card-title outline-child">
                   <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>New User Registration</div>
-                    <div class="status-avatar float-right">
-                      <i class="fa fa-paperclip"></i>
-                    </div>
                 </div>
               </div>
               <div class="card-body mt-3 ">
                   <div class="step fail-bg">
                     <span>Given user will navigate to the registration page</span>
       <div>
-        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Register"}
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
   (Session info: MicrosoftEdge=113.0.1774.35)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.2', revision: '826dbfc730'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [474281f18993b67c49bab577e6b46bf6, findElement {using=link text, value=Register}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 113.0.1774.35, ms:edgeOptions: {debuggerAddress: localhost:62825}, msedge: {msedgedriverVersion: 113.0.1774.35 (7069649d6056..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62825/devtoo..., se:cdpVersion: 113.0.1774.35, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 474281f18993b67c49bab577e6b46bf6
+Command: [b35b32d0275d169c281c2fae7d6bd47c, findElement {using=link text, value=Register}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 113.0.1774.35, ms:edgeOptions: {debuggerAddress: localhost:54183}, msedge: {msedgedriverVersion: 113.0.1774.35 (7069649d6056..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54183/devtoo..., se:cdpVersion: 113.0.1774.35, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b35b32d0275d169c281c2fae7d6bd47c
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -194,15 +188,35 @@ Session ID: 474281f18993b67c49bab577e6b46bf6
       <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step fail-bg">
                     <span>stepdefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)</span>
-      <div>Screenshot Failed
-          <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='./Screenshots/embedded1.png' src="./Screenshots/embedded1.png">
-    
-    </div></div>
-</div>
       <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=113.0.1774.35)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b35b32d0275d169c281c2fae7d6bd47c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 113.0.1774.35, ms:edgeOptions: {debuggerAddress: localhost:54183}, msedge: {msedgedriverVersion: 113.0.1774.35 (7069649d6056..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54183/devtoo..., se:cdpVersion: 113.0.1774.35, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b35b32d0275d169c281c2fae7d6bd47c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:318)
+	at stepdefinitions.Hooks.afterScenario(Hooks.java:26)
+</textarea>
+      
       </div>
                   </div>
               </div>
@@ -213,9 +227,6 @@ Session ID: 474281f18993b67c49bab577e6b46bf6
     <div class="card-header" role="tab">
       <div class="card-title">
         <div class="node" id="14"><span class="badge log fail-bg mr-2">Fail</span>Login page to CLPdomeo</div>
-          <div class="status-avatar float-right mr-4">
-            <i class="fa fa-paperclip"></i>
-          </div>
       </div>
     </div>
         <div class="scenario_outline ">
@@ -223,9 +234,6 @@ Session ID: 474281f18993b67c49bab577e6b46bf6
               <div class="card-header">
                 <div class="card-title outline-child">
                   <div class="node" id="15"><span class="badge log fail-bg mr-2">Fail</span>Login page to CLPdomeo</div>
-                    <div class="status-avatar float-right">
-                      <i class="fa fa-paperclip"></i>
-                    </div>
                 </div>
               </div>
               <div class="card-body mt-3 ">
@@ -234,23 +242,18 @@ Session ID: 474281f18993b67c49bab577e6b46bf6
       <div>
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step fail-bg">
                     <span>Then user on the login page</span>
       <div>
-      </div>
-                  </div>
-                  <div class="step fail-bg">
-                    <span>When user enter username "abhishektesting183@gmail.com" and password "Master@07"</span>
-      <div>
-        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@data-validate='{required:true, email: true}']"}
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
   (Session info: MicrosoftEdge=113.0.1774.35)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.2', revision: '826dbfc730'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [7e5f8104e5f405224d0190077e3853f9, findElement {using=xpath, value=//input[@data-validate='{required:true, email: true}']}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 113.0.1774.35, ms:edgeOptions: {debuggerAddress: localhost:62917}, msedge: {msedgedriverVersion: 113.0.1774.35 (7069649d6056..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62917/devtoo..., se:cdpVersion: 113.0.1774.35, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7e5f8104e5f405224d0190077e3853f9
+Command: [6d2f544ff8ab9663ece2fb2f6ee2a23c, findElement {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 113.0.1774.35, ms:edgeOptions: {debuggerAddress: localhost:54244}, msedge: {msedgedriverVersion: 113.0.1774.35 (7069649d6056..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54244/devtoo..., se:cdpVersion: 113.0.1774.35, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d2f544ff8ab9663ece2fb2f6ee2a23c
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -266,10 +269,15 @@ Session ID: 7e5f8104e5f405224d0190077e3853f9
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at stepdefinitions.LoginSteps.userEnterUsernameAndPassword(LoginSteps.java:28)
-	at ?.user enter username "abhishektesting183@gmail.com" and password "Master@07"(file:///C:/Users/Abhishek_Gupta3/IdeaProjects/CLPAutomation/src/test/resources/features/01UATTestCase.feature:22)
+	at stepdefinitions.LoginSteps.userOnTheLoginPage(LoginSteps.java:23)
+	at ?.user on the login page(file:///C:/Users/Abhishek_Gupta3/IdeaProjects/CLPAutomation/src/test/resources/features/01UATTestCase.feature:21)
 </textarea>
       
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When user enter username "abhishektesting183@gmail.com" and password "Master@07"</span>
+      <div>Step skipped
       </div>
                   </div>
                   <div class="step skip-bg">
@@ -282,15 +290,35 @@ Session ID: 7e5f8104e5f405224d0190077e3853f9
       <div>Step skipped
       </div>
                   </div>
-                  <div class="step pass-bg">
+                  <div class="step fail-bg">
                     <span>stepdefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)</span>
-      <div>Screenshot Failed
-          <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='./Screenshots/embedded2.png' src="./Screenshots/embedded2.png">
-    
-    </div></div>
-</div>
       <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=113.0.1774.35)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [6d2f544ff8ab9663ece2fb2f6ee2a23c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 113.0.1774.35, ms:edgeOptions: {debuggerAddress: localhost:54244}, msedge: {msedgedriverVersion: 113.0.1774.35 (7069649d6056..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54244/devtoo..., se:cdpVersion: 113.0.1774.35, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d2f544ff8ab9663ece2fb2f6ee2a23c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:318)
+	at stepdefinitions.Hooks.afterScenario(Hooks.java:26)
+</textarea>
+      
       </div>
                   </div>
               </div>
@@ -320,15 +348,15 @@ Session ID: 7e5f8104e5f405224d0190077e3853f9
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>2</span>
+<span class='badge log badge-danger'>4</span>
 </span>
-<p class="name">org.openqa.selenium.NoSuchElementException</p>
-<p class="duration text-sm">2 tests</p>
+<p class="name">org.openqa.selenium.NoSuchWindowException</p>
+<p class="duration text-sm">4 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>org.openqa.selenium.NoSuchElementException</h4>
-<span status="fail" class='badge log badge-danger'>2 failed</span>
+<h4>org.openqa.selenium.NoSuchWindowException</h4>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -341,7 +369,7 @@ Session ID: 7e5f8104e5f405224d0190077e3853f9
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>16:42:53 PM</td>
+<td>17:41:50 PM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='5'>Given user will navigate to the registration page</a>
 <div class="">
@@ -351,11 +379,31 @@ Session ID: 7e5f8104e5f405224d0190077e3853f9
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>16:43:24 PM</td>
+<td>17:41:57 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='19'>When user enter username "abhishektesting183@gmail.com" and password "Master@07"</a>
+<a href="#" class="linked" test-id='1' id='13'>stepdefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)</a>
 <div class="">
-<span class="badge badge-default">Verify the UAT Test case 01.Login page to CLPdomeo.When user enter username "abhishektesting183@gmail.com" and password "Master@07"</span>
+<span class="badge badge-default">Verify the UAT Test case 01.New User Registration.stepdefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:42:01 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='18'>Then user on the login page</a>
+<div class="">
+<span class="badge badge-default">Verify the UAT Test case 01.Login page to CLPdomeo.Then user on the login page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:42:01 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='22'>stepdefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Verify the UAT Test case 01.Login page to CLPdomeo.stepdefinitions.Hooks.afterScenario(io.cucumber.java.Scenario)</span>
 </div>
 </td>
 </tr>
@@ -376,13 +424,13 @@ Session ID: 7e5f8104e5f405224d0190077e3853f9
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>May 12, 2023 04:42:40 PM</h3>
+<h3>May 12, 2023 05:41:45 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>May 12, 2023 04:43:36 PM</h3>
+<h3>May 12, 2023 05:42:01 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -453,10 +501,10 @@ Session ID: 7e5f8104e5f405224d0190077e3853f9
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='26%'><b>4</b> steps passed</small></div>
+<div><small data-tooltip='6%'><b>1</b> steps passed</small></div>
 <div>
-<small data-tooltip='13%'><b>2</b> steps failed,
-<b>9</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='26%'><b>4</b> steps failed,
+<b>10</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -472,7 +520,7 @@ Session ID: 7e5f8104e5f405224d0190077e3853f9
 </div></div>
 <script>
 var timeline = {
-"Verify the UAT Test case 01":52.485
+"Verify the UAT Test case 01":15.638
 };
 </script>
 <div class="row">
@@ -492,10 +540,10 @@ warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 4,
-failGrandChild: 2,
+passGrandChild: 1,
+failGrandChild: 4,
 warningGrandChild: 0,
-skipGrandChild: 9,
+skipGrandChild: 10,
 infoGrandChild: 0,
 eventsCount: 5,
 };
