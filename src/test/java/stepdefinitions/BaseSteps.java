@@ -3,7 +3,6 @@ package stepdefinitions;
 
 import common.TestContext;
 import org.openqa.selenium.WebDriver;
-import report.AllureManager;
 
 
 public class BaseSteps {
